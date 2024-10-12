@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Andy chef restaurant </title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/register.css">
+</head>
+<body class="reservation-body">
+    <div class="container">
+        <h1>Andy Chef Restaurant</h1>
+        <div class="navbar">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../pages/about.html">ABOUT</a></li>
+                <li><a href="../pages/menu.html" class="menu">MENU</a></li>
+                
+                <li><a href="../pages/contact.html">CONTACT</a></li>
+                 <li><a class="reservation" href="./pages/register.html">REGISTER</a></li> 
+
+            </ul>
+        </div>
+    </div>
+    <div class="reservation-form"> 
+        <form action="" class="form">
+            <h1>Reservation Form</h1>
+            <div class="name-email container1">
+                <div>
+                    <label for="">Name</label><br>
+                    <input type="text" placeholder="Enter Your Full name" required>
+                </div>
+                <div>
+                    <label for="">Email</label><br>
+                    <input type="email" placeholder="Enter Your Email" required>
+                </div>
+            </div>
+            <div class="phone-area container1">
+                <div>
+                    <label for="">Phone Number</label><br>
+                    <input type="number" placeholder="Enter Your Phone number" required>
+                </div>
+                <div>
+                    <label for="">Preferred Seating Area</label>
+                    <select>
+                        <option>Indoor</option>
+                        <option>Outdoor</option>
+                        <option>Near a Window</option>
+                    </select>
+                </div>
+            </div>
+            <div class="date-time container1">
+                <div>
+                    <label for="">Reservation Date</label><br>
+                    <input type="date" placeholder="Date of Reservation" required>
+                </div>
+                <div>
+                    <label for="">Reservation Time</label><br>
+                    <input type="time" placeholder="Time of Reservation" required>
+                </div>
+            </div>
+            <div class="Guests-occasion container1">
+                <div>
+                    <label for="">Guests Count</label><br>
+                    <input type="number" placeholder="Number of Guests" required>
+                </div>
+                <div>
+                    <label for="">Occasion</label><br>
+                    <input type="text" placeholder="Occasion">
+                </div>
+            </div>
+            <br>
+            <button class="reservation-btn">Make a Reservation</button>
+        </form>
+    </div>
+</body>

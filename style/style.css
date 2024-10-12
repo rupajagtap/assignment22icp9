@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.container h1{
+    color:#b6bdbd;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 2.0s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px #004d4d inset, 0 3px 50px #004d4d inset,0 3px 50px #004d4d inset,0 3px 50px #004d4d inset;
+}
+.navbar .reservation{
+    padding: 4px;
+    background-color:rgb(15, 15, 73);
+}
+/* .navbar .reservation:hover{
+    box-shadow: 0 0 5px orangered,
+    0 0 25px orangered, 0 0 50px orangered,
+    0 0 100px orangered, 0 0 200px orangered;
+} */

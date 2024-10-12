@@ -1,0 +1,71 @@
+.reservation-body{
+    background-color:#004d4d;
+}
+.reservation-form h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.form{
+    margin-top: 20px;
+    height: 580px;
+    width: 600px;
+    background-color: ;
+    box-shadow: 0px 0px 10px 5px black;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+.form input, .form select {
+    padding: 10px;
+    margin: 5px 0;
+    width: calc(100% - 22px); /* Adjust width to fit padding and borders */
+    box-sizing: border-box;
+    width: 100%;
+}
+.form input:hover, .form select:hover{
+    border: solid 2px orangered;
+}
+.reservation-form{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form label{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+}
+.name-email, .phone-area, .date-time, .Guests-occasion {
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+.container1{
+    width: 90;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    gap: 20px; /* Space between flex items */
+}
+.container1 > div {
+    flex: 1; /* Allow items to grow and shrink */
+    min-width: 0; /* Ensure items don't overflow */
+}
+.reservation-btn{
+    padding: 7px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 5px auto;
+}
+.reservation-btn:hover{
+    box-shadow: 0px 0px 20px 2px black;
+}
