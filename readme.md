@@ -32,4 +32,4 @@ Check out the live version of the site: **[Andy chef Restaurant](https://superb-
 
 ## Home Page
 
-![first-page](file:///C:/Users/Shree/OneDrive/Desktop/RTC%209.0/assignment22icp9/index.html)
+![first-page]**(file:///C:/Users/Shree/OneDrive/Desktop/RTC%209.0/assignment22icp9/index.html)**
